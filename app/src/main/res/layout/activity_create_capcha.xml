@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/blue_dark"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter text in the given \nbox and press submit button"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/_15sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_alignTop="@+id/changeButton"
+        android:layout_toRightOf="@+id/enterTextCapcha"
+        android:layout_gravity="center"
+        android:src="@drawable/bg" />
+
+    <EditText
+        android:id="@+id/enterTextCapcha"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_below="@+id/capchaimageView"
+        android:layout_toRightOf="@+id/imageView2"
+        android:background="@drawable/border_yellow"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:ems="10"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_15sdp"
+        android:singleLine="true" >
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/submitcapchaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/PrimaryColor"
+            android:text="Submit"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/changeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/PrimaryColor"
+            android:text="Refresh"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

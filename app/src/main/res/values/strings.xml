@@ -1,0 +1,266 @@
+<resources>
+    <string name="app_name">eTeachSwayam</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="back">Back</string>
+    <string name="video_title">Title</string>
+
+    <string name="notification_catalog_downloaded">Downloading Please Wait </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_item_1">Home</string>
+    <string name="navigation_item_2">Events</string>
+    <string name="starred_string">Starred</string>
+    <string name="my_profile">My Profile</string>
+    <string name="activate_now">Activate Now</string>
+    <string name="storage">Storage</string>
+    <string name="transfer_content">Transfer Content</string>
+    <string name="updates">Updates</string>
+    <string name="feedbacks">Feedbacks</string>
+    <string name="terms_conditions">Terms and Conditions</string>
+    <string name="supports">Supports</string>
+    <string name="about_us">About Us</string>
+    <string name="helps">Help</string>
+    <string name="logout">Logout</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="array_board">
+        <item>CBSE</item>
+        <item>ICSE</item>
+        <item>STATE</item>
+    </string-array>
+
+    <string-array name="arry_medium">
+        <item>English</item>
+    </string-array>
+
+    <string-array name="arry_class">
+        <item>Class I</item>
+        <item>Class II</item>
+        <item>Class III</item>
+        <item>Class IV</item>
+        <item>Class V</item>
+        <item>Class VI</item>
+        <item>Class VII</item>
+        <item>Class VIII</item>
+        <item>Class IX</item>
+        <item>Class X</item>
+        <item>Class XI</item>
+        <item>Class XII</item>
+    </string-array>
+
+    <string-array name="arry_subject">
+        <item>SCIENCE</item>
+        <item>MATHS</item>
+        <item>GK</item>
+        <item>SOCIAL STUDIES</item>
+        <item>COMPUTER</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="prompt_email">Email Id</string>
+    <string name="prompt_password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="btnRegister">Register</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email1">User Id</string>
+    <string name="prompt_password1">Password</string>
+    <string name="action_sign_in_register"><b>Sign in</b></string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="menu_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in....</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">password must contain at least 6 characters</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="des">Add New User</string>
+
+    <string name="eteach_term_condition">eTeach Terms of Service
+
+Last modified: May 2, 2013
+
+Welcome to eTeach!
+
+Thanks for using our products and services (referred as “Services” hereafter). The Services are
+provided by Designo Media Works India Private Limited (“eTeach”), a company registered and
+incorporated under the provisions of the Companies Act, 1956, and having its registered office at 202,
+2nd Floor, Ameya Towers, Adjacent Dinanath High School, Humpyard Road, Dhantoli, Nagpur – 440012,
+Maharashtra. eTeach is the registered trademark of Designo Media Works India Private Limited.
+
+By using our Services, you are agreeing to these terms. Please read them carefully.
+
+Our Services are very diverse, so sometimes additional terms or product requirements may apply.
+Additional terms will be available with the relevant Services, and those additional terms become part of
+your agreement with us if you use those Services.
+
+Using our Services
+
+You must follow any policies made available to you within the Services.
+
+Don’t misuse our Services. For example, don’t interfere with our Services or try to access them using a
+method other than the interface and the instructions that we provide. You may use our Services only
+as permitted by law, including applicable export and re-export control laws and regulations. We may
+suspend or stop providing our Services to you if you do not comply with our terms or policies or if we
+are investigating suspected misconduct.
+
+Using our Services does not give you ownership of any intellectual property rights in our Services or the
+content you access. You may not use content from our Services unless you obtain permission from its
+owner or are otherwise permitted by law. These terms do not grant you the right to use any branding or
+logos used in our Services. Don’t remove, obscure, or alter any legal notices displayed in or along with
+our Services.
+
+Our Services display some content that is not eTeach’s. This content is the sole responsibility of the
+entity that makes it available. We may review content to determine whether it is illegal or violates
+our policies, and we may remove or refuse to display content that we reasonably believe violates our
+policies or the law. But that does not necessarily mean that we review content, so please don’t assume
+that we do.
+
+In connection with your use of the Services, we may send you service announcements, administrative
+messages, and other information. You may opt out of some of those communications.
+
+Your eTeach Account
+
+You may need an eTeach Account in order to use some of our Services. You may create your own
+eTeach Account by buying an eTeach Service, or your eTeach Account may be assigned to you
+by an administrator, such as your educational institution. The license or Account purchased for using
+eTeach Services would be valid for a pre-specified period of time. If you are using an eTeach TM
+Account assigned to you by an administrator, different or additional terms may apply and your
+administrator may be able to access or disable your account.
+If you learn of any unauthorized use of your password or account, immediately contact your
+administrator or customer care.
+
+Privacy and Copyright Protection
+
+eTeach’s privacy policies explain how we treat your personal data and protect your privacy when you
+use our Services. By using our Services, you agree that eTeach can use such data in accordance with
+our privacy policies.
+
+Entire eTeach has been protected under Indian copyright laws and we respond to notices of alleged
+copyright infringement and might take legal action against infringers according to the process set out by
+Indian laws.
+
+If you think somebody is violating our copyrights and want to notify us, you can provide the information
+to your administrator or customer care.
+
+Your Content in our Services
+
+Some of our Services might allow you to submit content or data. You retain ownership of any
+intellectual property rights that you hold in that content. In short, what belongs to you stays yours.
+
+When you upload or otherwise submit content or data to our Services, you give eTeach TM (and those
+we work with) a worldwide license to use, host, store, reproduce, modify, create derivative works (such
+as those resulting from translations, adaptations or other changes we make so that your content works
+better with our Services), communicate, publish, publicly perform, publicly display and distribute such
+content. The rights you grant in this license are for the limited purpose of operating, promoting, and
+improving our Services, and to develop new ones. This license continues even if you stop using our
+Services. Some Services may offer you ways to access and remove content that has been provided to
+that Service. Also, in some of our Services, there are terms or settings that narrow the scope of our use
+of the content submitted in those Services. Make sure you have the necessary rights to grant us this
+license for any content that you submit to our Services.
+
+If you submit feedback or suggestions about our Services, we may use your feedback or suggestions
+without obligation to you.
+
+About Software in our Services
+
+When a Service requires or includes downloadable software, this software may update automatically on
+your device once a new version or feature is available. Some Services may let you adjust your automatic
+update settings.
+
+eTeach gives you a personal, worldwide, non-assignable and non-exclusive license to use the software
+provided to you by eTeach as part of the Services. This license is for the sole purpose of enabling you
+to use and enjoy the benefit of the Services as provided by eTeach, in the manner permitted by these
+terms. You may not copy, modify, distribute, sell, or lease any part of our Services or included software,
+nor may you reverse engineer or attempt to extract the source code of that software, unless you have
+our written permission.
+
+Modifying and Terminating our Services
+
+We are constantly changing and improving our Services. We may add or remove functionalities or
+features, and we may suspend or stop a Service altogether.
+
+You can stop using our Services at any time, including the time for which Service license is purchased
+but software not already installed, though the money paid against purchase of such license won’t
+be refunded. However, you may contact customer care and request for a refund under special
+circumstances. The decision to make a refund lies solely at discretion of eTeach TM. eTeach may also
+stop providing Services to you, or add or create new limits to our Services at any time.
+
+We believe that you own your data and preserving your access to such data is important. If we
+discontinue a Service, where reasonably possible, we will give you reasonable advance notice and a
+chance to get information out of that Service.
+
+Our Warranties and Disclaimers
+
+We provide our Services using a commercially reasonable level of skill and care and we hope that you
+will enjoy using them. But there are certain things that we don’t promise about our Services.
+
+Other than as expressly set out in these terms or additional terms, neither eTeach TM nor its suppliers
+or distributors make any specific promises about the Services. For example, we don’t make any
+commitments about the content within the Services, the specific functions of the Services, or their
+reliability, availability, accuracy, quality or ability to meet your needs. We provide the Services “as is”.
+
+Some jurisdictions provide for certain warranties, like the implied warranty of merchantability,
+fitness for a particular purpose and non-infringement. To the extent permitted by law, we exclude all
+warranties.
+
+Liability for our Services
+
+When permitted by law eTeach, and eTeach’s suppliers and distributors, will not be responsible for
+lost profits, revenues, or data, financial losses or indirect, special, consequential, exemplary, or punitive
+damages.
+
+To the extent permitted by law, the total liability of eTeach, and its suppliers and distributors, for any
+claims under these terms, including for any implied warranties, is limited to the amount you paid us to
+use the Services (or, if we choose, to supplying you the Services again).
+
+In all cases, eTeach, and its suppliers and distributors, will not be liable for any loss or damage that is
+not reasonably foreseeable.
+
+Business uses of our Services
+
+If you are using our Services on behalf of a business, that business accepts these terms. It will hold
+harmless and indemnify eTeach and its affiliates, officers, agents, and employees from any claim, suit
+or action arising from or related to the use of the Services or violation of these terms, including any
+liability or expense arising from claims, losses, damages, suits, judgments, litigation costs and attorneys’
+fees.
+
+About these Terms
+
+We may modify these terms or any additional terms that apply to a Service to, for example, reflect
+changes to the law or changes to our Services. You should look at the terms regularly. We’ll post
+
+notice of modifications to these terms on our website www.eteach.co.in. We’ll post notice of modified
+additional terms in the applicable Service, if internet connection is available at client’s end. Changes
+will not apply retroactively and will become effective no sooner than seven days after they are posted.
+However, changes addressing new functions for a Service or changes made for legal reasons will be
+effective immediately. If you do not agree to the modified terms for a Service, you should discontinue
+your use of that Service.
+
+If there is a conflict between these terms and the additional terms issued by Designo Media Works India
+Private Limited, the additional terms will control for that conflict.
+
+These terms control the relationship between eTeach and you. They do not create any third party
+beneficiary rights.
+
+If you do not comply with these terms, and we don’t take action right away, this doesn’t mean that we
+are giving up any rights that we may have (such as taking action in the future).
+
+If it turns out that a particular term is not enforceable, this will not affect any other terms.
+
+The courts in some countries will not apply Indian laws to some types of disputes. If you reside in one
+of those countries, then where Indian laws are excluded from applying, your country’s laws will apply
+to such disputes related to these terms. Otherwise, you agree that the laws of India, will apply to any
+disputes arising out of or relating to these terms or the Services. Jurisdiction of any disputes related to
+these terms would be settled in city of Nagpur, Maharashtra, India only.
+
+For information about how to contact eTeach, please visit our website www.eteach.co.in.</string>
+</resources>

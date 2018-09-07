@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:id="@+id/constraintLayoutParent">
+
+    <FrameLayout
+        android:id="@+id/aspectRatioFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+            android:id="@+id/simpleExoPlayerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imageViewVolume"
+            android:layout_width="@dimen/size_thirty_five"
+            android:layout_height="@dimen/size_thirty_five"
+            android:layout_gravity="left|top"
+            android:layout_margin="@dimen/size_ten"
+            android:background="@drawable/drawble_rounded_transparent"
+            android:padding="@dimen/size_ten"
+            android:src="@drawable/drawable_volume_selector" />
+
+        <android.support.v4.widget.ContentLoadingProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="@dimen/size_fifty"
+            android:layout_height="@dimen/size_fifty"
+            android:layout_gravity="center"
+            android:background="@drawable/drawble_rounded_transparent_with_stroke"
+            android:padding="@dimen/size_ten"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imageViewPlay"
+            android:layout_width="@dimen/size_fifty"
+            android:layout_height="@dimen/size_fifty"
+            android:layout_gravity="center"
+            android:background="@drawable/drawble_rounded_transparent_with_stroke"
+            android:padding="@dimen/size_five"
+            android:visibility="gone"
+            app:srcCompat="@drawable/exo_controls_play" />
+
+        <ImageView
+            android:id="@+id/imageViewPause"
+            android:layout_width="@dimen/size_fifty"
+            android:layout_height="@dimen/size_fifty"
+            android:layout_gravity="center"
+            android:background="@drawable/drawble_rounded_transparent_with_stroke"
+            android:padding="@dimen/size_five"
+            android:visibility="gone"
+            app:srcCompat="@drawable/exo_controls_pause" />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

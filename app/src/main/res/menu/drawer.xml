@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/itHome"
+            android:checked="false"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/itMyProfile"
+            android:checked="false"
+            android:icon="@drawable/ic_myprofile"
+            android:title="@string/my_profile" />
+
+        <item
+            android:id="@+id/itActivate"
+            android:checked="false"
+            android:icon="@drawable/ic_activate"
+            android:title="@string/activate_now" />
+
+        <item
+            android:id="@+id/itStorage"
+            android:checked="false"
+            android:icon="@drawable/ic_storage"
+            android:title="@string/storage" />
+
+        <item
+            android:id="@+id/itTrnsferContent"
+            android:checked="false"
+            android:icon="@drawable/ic_content_transfer"
+            android:title="@string/transfer_content" />
+
+
+        <item
+            android:id="@+id/itUpdates"
+            android:checked="false"
+            android:icon="@drawable/ic_updates"
+            android:title="@string/updates" />
+        <item
+            android:id="@+id/itFeedback"
+            android:checked="false"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/feedbacks" />
+        <item
+            android:id="@+id/itTandC"
+            android:checked="false"
+            android:icon="@drawable/ic_terms_conditons"
+            android:title="@string/terms_conditions" />
+        <item
+            android:id="@+id/itSuppport"
+            android:checked="false"
+            android:icon="@drawable/ic_support"
+            android:title="@string/supports" />
+        <item
+            android:id="@+id/itAboutUs"
+            android:checked="false"
+            android:icon="@drawable/ic_labout_us"
+            android:title="@string/about_us" />
+
+        <item
+            android:id="@+id/itHelps"
+            android:checked="false"
+            android:icon="@drawable/ic_help"
+            android:title="@string/helps" />
+
+        <item
+            android:id="@+id/itLogout"
+            android:checked="false"
+            android:icon="@drawable/ic_logout1"
+            android:title="@string/logout" />
+
+
+
+    </group>
+</menu>

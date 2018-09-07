@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="player_background">#4a4a4a</color>
+    <color name="holo_light_primary">#000000</color>
+    <color name="background_holo_light">#000000</color>
+    <color name="white_light">#FFFFFF</color>
+    <color name="selectablecolor">#333333</color>
+    <color name="default_screen_bg">#f9f9f9</color>
+    <color name="rounded_container_bg">#222222</color>
+    <color name="rounded_container_border">#3b3f44</color>
+    <color name="light_gray_header_color">#646663</color>
+
+
+    <color name="black">#000</color>
+    <color name="blue_dark">#293C46</color>
+    <color name="orange">#C75A55</color>
+    <color name="white">#FFFFFF</color>
+    <color name="register_header">#2292A4</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="dilog_bag">#2EC4B6</color>
+    <color name="dilog_btn_color">#011627</color>
+    <color name="PrimaryColor">#DD1616</color>
+    <color name="PrimaryDarkColor">#AA0000</color>
+    <color name="color_white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CheckBoxAppTheme">
+        <item name="android:colorAccent">@color/PrimaryColor</item>
+        <item name="android:colorControlNormal">@color/white</item>
+        <item name="android:colorControlHighlight">@color/PrimaryColor</item>
+    </style>
+
+
+</resources>
